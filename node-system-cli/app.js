@@ -27,3 +27,5 @@ if (process.argv.includes("--save")) {
     console.log(`System Report is saved at: ${filepath}`);
 
 }
+
+module.exports = report
