@@ -1,7 +1,6 @@
 const http = require('http')
 const os = require('os')
 const systemInfo = require("../node-system-cli/app")
-const { error } = require('console')
 const server = http.createServer((req,res)=>{
     if (req.method === "GET" && req.url === "/") {
        const response = {
